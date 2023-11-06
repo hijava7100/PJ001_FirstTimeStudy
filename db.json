@@ -1,33 +1,116 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "hello"
-        },
-        {
-            "id": 2,
-            "title": "bye"
-        },
-        {
-            "id": 3,
-            "title": "see you agin"
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    },
-    "etc": [
-        {
-            "id": 1,
-            "title": "aaa"
-        },
-        {
-            "id": 2,
-            "title": "bbb"
-        },
-        {
-            "id": 3,
-            "title": "ccc"
-        }
-    ]
+	"user": [
+		{
+			"id": 1,
+			"employeeNumber": 1001,
+			"name": {
+				"lastname": "Hong",
+				"firstname": "Nara"
+			},
+			"email": "Nara.Hong@mailserver.com",
+			"phonenumber": "01095001001", 
+			"startdate": "2023-10-01 18:00:00",
+			"etc": ""
+		},
+		{
+			"id": 2,
+			"employeeNumber": 1002,
+			"name": {
+				"lastname": "Kim",
+				"firstname": "Minhan"
+			},
+			"email": "Minhan.Kim@mailserver.com",
+			"phonenumber": "01095001002",
+			"startdate": "2023-10-21 09:21:00",
+			"etc": ""
+		},
+		{
+			"id": 3,
+			"employeeNumber": 1003,
+			"name": {
+				"lastname": "Cho",
+				"firstname": "Wara"
+			},
+			"email": "Wara.Cho@mailserver.com",
+			"phonenumber": "01095001003",
+			"startdate": "2023-11-21 15:40:12",
+			"etc": ""
+		},
+		{
+			"id": 4,
+			"employeeNumber": 1004,
+			"name": {
+				"lastname": "Park",
+				"firstname": "ManDoo"
+			},
+			"email": "ManDoo.Park@mailserver.com",
+			"phonenumber": "01095001004",
+			"startdate": "2024-01-03 02:00:20",
+			"etc": ""
+		},
+		{
+			"id": 5,
+			"employeeNumber": 1005,
+			"name": {
+				"lastname": "Jung",
+				"firstname": "Ilpum"
+			},
+			"email": "Ilpum.Jung@mailserver.com",
+			"phonenumber": "01095001005",
+			"startdate": "2023-09-13 00:02:03",
+			"etc": ""
+		}
+	],
+	"tts": [
+		{
+			"id": 1,
+			"kind": "greeting",
+			"text": "Welcome to Global Korea. We are happy to help you.",
+			"etc": "" 
+		},
+		{
+			"id": 2,
+			"kind": "error",
+			"text": "Sorry, an error occurred. Please call back.",
+			"etc": "" 
+		},{
+			"id": 3,
+			"kind": "waiting",
+			"text": "Please wait for the next available agent.",
+			"etc": "" 
+		},{
+			"id": 4,
+			"kind": "select",
+			"text": "Press the desired number.",
+			"etc": "" 
+		},{
+			"id": 5,
+			"kind": "bye",
+			"text": "Thank you for contacting us. goodbye.",
+			"etc": "" 
+		} 
+	],
+	"overdue": [
+		{
+			"id": 1,
+			"account": 1001,
+			"resultcode" : 0,
+			"result": "y",
+			"etc": "" 
+		},
+		{
+			"id": 2,
+			"account": 1002,
+			"resultcode" : 11,
+			"result": "n",
+			"etc": "" 
+		},
+		{
+			"id": 3,
+			"account": 1003,
+			"resultcode" : -1,
+			"result": "n",
+			"etc": "" 
+		} 
+	]
 }
